@@ -1,0 +1,553 @@
+
+/*  CLEAR BROWSER  */
+
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
+/*  BACKGROUND IMAGE  */
+
+body {
+    background-image: url("https://4.bp.blogspot.com/-ufrFSzRdFJc/UUbGp90CZ5I/AAAAAAAAE_k/nPHlc61cuXU/s1600/seamless-paper-texture-light-blue-gray.jpg");
+}
+
+
+/*  BEGIN HEADER  */
+
+#header {
+	margin-top: 20px;
+	width: 100%;
+	height: 79px;
+	background-color: #FFFFFF;
+	text-align: center;
+	border-bottom: solid 2px #cccccc;
+}
+
+#name {
+	float: left;
+	margin-left: 150px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 27px;
+	font-weight: bolder;
+	padding: 24px;
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+}
+
+#topNav {
+	float: left;
+	margin-left: 325px;
+	padding: 10px;
+	color: #e5e5e5;
+}
+
+#navText {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #777777;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*  END HEADER  */
+
+
+/*  BEGIN MAIN CONTENT  */
+
+#mainBox {
+	float: left;
+	background-color: #FFFFFF;
+	height: 610px;
+	width: 550px;
+	margin: 30px 30px 30px 150px;
+}
+
+#mainContents {
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 92%;
+	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#mainTitle {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+#rule {
+	color: #e5e5e5;
+	border-bottom: solid 2px #e5e5e5;
+}
+
+#mainImg {
+	height: 200px;
+	width: 200px;
+	border: solid 4px #999999;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+#mainText {
+	margin-top: 25px;
+
+}
+
+#mainText, h3 {
+	margin-bottom: 10px;
+}
+
+/*  portfolio page  */
+
+#portImg1 {
+	height: 150px;
+	width: 150px;
+	background-image: url("http://lorempixel.com/195/195/");
+	float: left;
+	margin-top: 50px;
+	margin-right: 27px;
+}
+
+#portImg2 {
+	height: 150px;
+	width: 150px;
+	background-image: url("http://lorempixel.com/195/195/");
+	float: left;
+	margin-top: 50px;
+	margin-right: 27px;
+}
+
+#portImg3 {
+	height: 150px;
+	width: 150px;
+	background-image: url("http://lorempixel.com/195/195/");
+	float: left;
+	margin-top: 50px;
+}
+
+#portImg4 {
+	height: 150px;
+	width: 150px;
+	background-image: url("http://lorempixel.com/195/195/");
+	float: left;
+	margin-top: 40px;
+	margin-right: 27px;
+}
+
+#portImg5 {
+	height: 150px;
+	width: 150px;
+	background-image: url("http://lorempixel.com/195/195/");
+	float: left;
+	margin-top: 40px;
+	margin-right: 27px;
+}
+
+#portImg6 {
+	height: 150px;
+	width: 150px;
+	background-image: url("http://lorempixel.com/195/195/");
+	float: left;
+	margin-top: 40px;
+}
+
+#portText {
+	margin-top: 110px;
+	padding: 10px;
+	height: 15px;
+	width: auto;
+	background-color: rgba(74, 170, 165, 0.7);
+	opacity: 50%;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*  contact page  */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #fff;
+	border: solid 1px #4aaaa5;
+    color: #4aaaa5;
+}
+
+.container {
+    border-radius: 5px;
+	background-color: #fff;
+	color: #666;
+}
+
+/*  END MAIN CONTENT  */
+
+
+/*  BEGIN SOCIAL BOX  */
+
+#socialBox {
+	float: left;
+	margin-top: 30px;
+	background-color: #FFFFFF;
+	height: 160px;
+	width: 220px;
+}
+
+#socialContents {
+	text-align: center;
+}
+
+#socialTitle {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bolder;
+	font-size: 16px;
+	color: #4aaaa5;
+	margin-bottom: 20px;
+}
+#rule2 {
+	width: 80%;
+	margin-bottom: 20px;
+	color: #e5e5e5;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+#gitImg {
+	float: left;
+	margin-left: 25px;
+	margin-right: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+#liImg {
+	float: left;
+	margin-right: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+#stackImg {
+	float: left;
+	height: 50px;
+	width: 50px;
+}
+
+/*  END SOCIAL BOX  */
+
+
+/*  BEGIN STICKY FOOTER  */
+
+#stickyFooterWrapper {
+	min-height: calc(100vh - 0px);
+}
+
+#footer {
+	height: 70px;
+	background-color: #666666;
+	border-top: solid 7px #4aaaa5;
+	text-align: center;
+	color: #e5e5e5;
+	clear: both;
+}
+
+#footerText {
+	margin-top: 30px;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+/*  END STICKY FOOTER  */
+
+/* **************************** */
+
+/*  BEGIN RESPONSIVE 995PX WIDE */
+
+@media screen and (max-width:995px){
+	#name {
+		margin-left: 50px;
+	}
+
+	#mainBox {
+		margin-left: 50px;
+	}
+}
+
+/*  END RESPONSIVE 995PX WIDE */
+
+/* **************************** */
+
+/*  BEGIN RESPONSIVE 895PX WIDE */
+
+@media screen and (max-width:895px){
+	#name {
+		margin-left: 10px;
+	}
+
+	#topNav {
+		margin-left: 275px;
+	}
+
+	#mainBox {
+		margin-left: 10px;
+		width: 500px;
+		height: 630px;
+	}
+
+
+	#portImg1 {
+		height: 125px;
+		width: 125px;
+		background-image: url("http://lorempixel.com/195/195/");
+		float: left;
+		margin-top: 50px;
+		margin-right: 27px;
+	}
+	
+	#portImg2 {
+		height: 125px;
+		width: 125px;
+		background-image: url("http://lorempixel.com/195/195/");
+		float: left;
+		margin-top: 50px;
+		margin-right: 27px;
+	}
+	
+	#portImg3 {
+		height: 125px;
+		width: 125px;
+		background-image: url("http://lorempixel.com/195/195/");
+		float: left;
+		margin-top: 50px;
+	}
+	
+	#portImg4 {
+		height: 125px;
+		width: 125px;
+		background-image: url("http://lorempixel.com/195/195/");
+		float: left;
+		margin-top: 40px;
+		margin-right: 27px;
+	}
+	
+	#portImg5 {
+		height: 125px;
+		width: 125px;
+		background-image: url("http://lorempixel.com/195/195/");
+		float: left;
+		margin-top: 40px;
+		margin-right: 27px;
+	}
+	
+	#portImg6 {
+		height: 125px;
+		width: 125px;
+		background-image: url("http://lorempixel.com/195/195/");
+		float: left;
+		margin-top: 40px;
+	}
+	
+	#portText {
+		margin-top: 60px;
+		padding: 20px;
+		height: 15px;
+		width: auto;
+		background-color: rgba(74, 170, 165, 0.7);
+		opacity: 50%;
+		color: #fff;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-size: 15px;
+		text-align: center;
+	}
+
+
+}
+
+/*  END RESPONSIVE 895PX WIDE */
+
+/* **************************** */
+
+/*  BEGIN RESPONSIVE 805PX WIDE */
+
+@media screen and (max-width:805px){
+	#name {
+		margin-left: 50px;
+	}
+
+	#topNav {
+		margin-left: 25px;
+	}
+
+	#mainBox {
+		margin-left: 50px;
+		width: 500px;
+		height: 630px;
+	}
+
+
+	#socialBox {
+		margin-left: 50px;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		width: 500px;
+	}
+
+	#gitImg {
+		margin-left: 165px;
+	}
+
+
+}
+
+/*  END RESPONSIVE 805PX WIDE */
+
+
+/*  BEGIN RESPONSIVE 640PX WIDE */
+
+@media screen and (max-width:640px){
+	#name {
+		margin-left: 20px;
+		width: 90%;
+		font-size: 40px;
+		padding: 17px;
+	}
+
+	#topNav {
+		margin-left: 30px;
+		width: 90%;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	#navText {
+		font-size: 18px;
+	}
+
+	#mainBox {
+		margin-left: 20px;
+		width: 90%
+	}
+
+	#socialBox {
+		margin-left: 20px;
+		width: 90%
+	}
+
+
+}
+
+/*  END RESPONSIVE 640PX WIDE */
+
+/*  BEGIN RESPONSIVE 620PX WIDE */
+
+@media screen and (max-width:620px){
+	
+	#name {
+		margin-left: 10px;
+	}
+	
+	#mainBox {
+		margin-left: 10px;
+		height: 650px;
+	}
+
+	#socialBox {
+		margin-left: 10px;
+	}
+
+
+}
+
+/*  END RESPONSIVE 620PX WIDE */
+
+/*  BEGIN RESPONSIVE 555PX WIDE */
+
+@media screen and (max-width:555px){
+	#mainBox {
+		margin-left: 10px;
+		width: 90%;
+		height: 780px;
+		overflow: scroll;
+	}
+
+	#portImg1 {
+		height: 300px;
+		width: 300px;
+		background-image: url("http://lorempixel.com/300/300/");
+		float: left;
+		margin-top: 50px;
+	}
+
+	#portImg2 {
+		height: 300px;
+		width: 300px;
+		background-image: url("http://lorempixel.com/300/300/");
+		float: left;
+		margin-top: 50px;
+	}
+
+	#portImg3 {
+		height: 300px;
+		width: 300px;
+		background-image: url("http://lorempixel.com/300/300/");
+		float: left;
+		margin-top: 50px;
+	}
+
+	#portImg4 {
+		height: 300px;
+		width: 300px;
+		background-image: url("http://lorempixel.com/300/300/");
+		float: left;
+		margin-top: 50px;
+	}
+
+	#portImg5 {
+		height: 300px;
+		width: 300px;
+		background-image: url("http://lorempixel.com/300/300/");
+		float: left;
+		margin-top: 50px;
+	}
+
+	#portImg6 {
+		height: 300px;
+		width: 300px;
+		background-image: url("http://lorempixel.com/300/300/");
+		float: left;
+		margin-top: 50px;
+	}
+
+	#gitImg {
+		margin-left: 27%;
+	}
+
+
+}
+
+/*  END RESPONSIVE 555PX WIDE */

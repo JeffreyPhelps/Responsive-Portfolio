@@ -1,0 +1,130 @@
+
+
+<!-- Current website ananysis:
+
+The site, overall, is closed to being complete. At least, from a week-1 perspective.
+I tried to make it as close to the image examples as I could, but there are a few bugs
+that have yet to be worked out. While this is going to be largely handled in the 
+coming weeks, I'd like to see the site more responsive, from the onset, even prior
+to using things like Bootstrap for different size viewports. Currently, the smaller 
+the screen, the worse it looks. The name largely disappears, the top nav acts weird,
+and the sticky-footer isn't quite sticking to the bottom as I would like to see, as 
+the screen gets smaller. Looking forward to bootstrap! -->
+
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <title>Jeffrey Phelps Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+
+
+  <body>
+
+    <!-- STICKY FOOTER WRAPPER DIV, CLOSES BETWEEN SOCIAL BOX & STICKY FOOTER -->
+
+    <div id="stickyFooterWrapper">
+
+      <!-- BEGIN HEADER -->
+
+      <header id="header">
+
+        <div id="name">
+          <p>Jeffrey Phelps</p>
+        </div>
+
+        <div id="topNav">
+          <br>
+          <a href="index.html" id="navText">About<a> | 
+          <a href="portfolio.html" id="navText">Portfolio<a> | 
+          <a href="contact.html" id="navText">Contact<a>
+        </div>
+
+      </header>
+
+      <!-- END HEADER -->
+
+      <!-- BEGIN MAIN CONTENT BOX -->
+
+      <div id="mainBox">
+        
+        <div id="mainContents">
+          <p id="mainTitle">About Me</p>
+          <br>
+          <hr id="rule">
+          <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAA08AAAAJDQyNTE3OTBhLTA0MTUtNDQ2MC04NWQ0LTY3NmVkMDIwMGI1Zg.jpg" id="mainImg" />
+          <p id="mainText">
+              <h3>Future Web Dev Ninja:</h3>
+              You are looking at the future of web development. My name is 
+              Jeffrey Phelps, student at the University of Denver's Web 
+              Development Bootcamp 2017/2018. I am currently learning all the 
+              latest in modern web design and development and hope to soon be 
+              one of the leading web developers in the <em>real</em> world.
+              <br><br>
+              I am pictured here monitoring the matrix from the 
+              homeofficekenezer, captured as I was preparing to have human-kind's 
+              entire coding library uploaded to my brain. We were unfortunately 
+              destracted by a group of sentinels and our electro-magnetic pulse, 
+              intended to destroy them, also wreaked havoc on our systems, for 
+              some reason. In addition to a giant, new debugging issue, this has 
+              currently forced me to learn coding the "old fashioned way," as 
+              they say, here at the University.
+              <br><br>
+              All is not lost, however, as DU is a fine institution in the matrix 
+              and should do more than suffice in guiding me toward my goal of 
+              becoming a well-rounded, full-stack web developer. The rest will 
+              be up to me, but the sky's the limit.
+              <br><br>
+              This information, including examples given of what I've learned to 
+              do, will be updated periodically and shown in the <a href="portfolio.html">Portfolio</a> 
+              section of this site. Remember...All I'm offering is the truth.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- END MAIN CONTENT BOX -->
+
+      <!-- BEGIN SOCIAL BOX -->
+
+      <div id="socialBox">
+        
+        <div id="socialContents">
+          <br>
+          <p id="socialTitle">Connect with Me</p>
+          <hr id="rule2">
+          <a href="https://github.com/JeffreyPhelps" target="new">
+            <img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" id="gitImg" />
+          </a>
+          <a href="https://www.linkedin.com/in/phelpscode/" target="new">
+            <img src="http://collectiveenlightenment.com/wp-content/uploads/2016/04/linkedin-logo-copy.png" id="liImg" />
+          </a>
+          <a href="https://stackoverflow.com/users/8214023/jeffrey-phelps" target="new">
+            <img src="https://i.pinimg.com/originals/71/bd/f6/71bdf6fa6caf4a89afc7394d515bc40b.png" id="stackImg" />
+          </a>
+        </div>
+        
+      </div>
+
+      <!-- END SOCIAL BOX -->
+
+    </div>
+
+    <!-- BEGIN STICKY FOOTER -->
+
+    <footer id="footer">
+      
+      <p id="footerText">© Copyright 2017 Jeffrey Phelps</p>
+
+    </footer>
+
+    <!-- END STICKY FOOTER -->
+
+  </body>
+
+</html>
